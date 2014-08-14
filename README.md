@@ -3,7 +3,9 @@ What is this about?
 
 This is the underlying framework of the TestObject visual testing language.
 The idea is to record a test script while the user is interacting with his app.
-Once recorded, the interactions can be replayed to validate functional correctness. Here's a video of how it works: https://www.youtube.com/watch?v=8PSkyYzxQ0I
+Once recorded, the interactions can be replayed to validate functional correctness.
+
+Here's a video of how it works: https://www.youtube.com/watch?v=8PSkyYzxQ0I
 
 If you have any question or want to collaborate, feel free to contact erik.nijkamp@gmail.com.
 
