@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.testobject.kernel</groupId>
+		<artifactId>parent</artifactId>
+		<version>4.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>platform</artifactId>
+	<dependencies>
+		<dependency>
+			<groupId>org.testobject.commons</groupId>
+			<artifactId>util</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.testobject.commons</groupId>
+			<artifactId>math</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.testobject.kernel</groupId>
+			<artifactId>api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.testobject.kernel</groupId>
+			<artifactId>events</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-assistedinject</artifactId>
+		</dependency>
+	</dependencies>
+</project>
